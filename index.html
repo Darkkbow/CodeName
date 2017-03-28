@@ -13,97 +13,72 @@
 <!-- ////////////////////////////////////////////-->
 <div class="top-bar">
   <div class="row">
-    <div class="small-12 small-centered column">
+    <div class="small-12 column">
       <div class="top-bar-title">
-        <span data-responsive-toggle="responsive-menu" data-hide-for="medium">
-          <button class="menu-icon dark" type="button" data-toggle></button>
-        </span>
-        <strong>CodeName</strong>
+        <span>CodeName</span>
       </div>
-      <div id="responsive-menu">
-        <div class="top-bar-left">
-          <ul class="menu">
-            <li>
-              <label>
-                <select>
-                  <option value="husker">GMT</option>
-                  <option value="starbuck">Starbuck</option>
-                  <option value="hotdog">Hot Dog</option>
-                  <option value="apollo">Apollo</option>
-                </select>
-              </label>
-            </li>
-            <li>
-              <span>local time</span>
-            </li>
-          </ul>
-
-        </div>
-        <div class="top-bar-right">
-          <ul class="menu">
-            <li><a class="logSign" data-open="exampleModal1">Login</a></li>
-            <div class="reveal" id="exampleModal1" data-reveal>
-              <h1>Awesome. I Have It.</h1>
-              <p class="lead">Your couch. It is mine.</p>
-              <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-              <button class="close-button" data-close aria-label="Close modal" type="button">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <li><a class="logSign" data-open="exampleModal2">Signin</a></li>
-            <div class="reveal" id="exampleModal2" data-reveal>
-              <h1>Awesome. I Have It.</h1>
-              <p class="lead">Your couch. It is mine.</p>
-              <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-              <button class="close-button" data-close aria-label="Close modal" type="button">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-          </ul>
-        </div>
+      <div class="top-bar-right">
+        <ul class="menu">
+          <li><a class="logSign" data-open="exampleModal1"><span class="signin"><i class="fa fa-sign-in" aria-hidden="true"></i></span><span class="hide-for-small-only">Signin</span></a></li>
+          <div class="reveal" id="exampleModal1" data-reveal>
+            <h1>Awesome. I Have It.</h1>
+            <p class="lead">Your couch. It is mine.</p>
+            <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+            <button class="close-button" data-close aria-label="Close modal" type="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <li><a class="register" data-open="exampleModal2"><span>Register</span></a></li>
+          <div class="reveal" id="exampleModal2" data-reveal>
+            <h1>Awesome. I Have It.</h1>
+            <p class="lead">Your couch. It is mine.</p>
+            <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
+            <button class="close-button" data-close aria-label="Close modal" type="button">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+        </ul>
       </div>
     </div>
   </div>
-
 </div>
-<nav class="navBar top-bar">
-  <div class="row">
-    <div class="small-12 columns">
-      <ul class="menu">
-        <div class="small-2 columns">
-          <li class="active">
-            <a href="#"><p><i class="fa fa-bug" aria-hidden="true"></i></p>Home</a>
-          </li>
-        </div>
-        <div class="small-2 columns">
-          <li>
-            <a href="#"><p><i class="fa fa-fire-extinguisher" aria-hidden="true"></i></p>Games</a>
-          </li>
-        </div>
-        <div class="small-2 columns">
-          <li>
-            <a href="#"><p><i class="fa fa-glass" aria-hidden="true"></i></p>Competitions</a>
-          </li>
-        </div>
-        <div class="small-2 columns">
-          <li>
-            <a href="#"><p><i class="fa fa-tags" aria-hidden="true"></i></p>Streams</a>
-          </li>
-        </div>
-        <div class="small-2 columns">
-          <li>
-            <a href="#"><p><i class="fa fa-user-secret" aria-hidden="true"></i></p>Bets</a>
-          </li>
-        </div>
-        <div class="small-2 columns">
-          <li>
-            <a href="#"><p><i class="fa fa-android" aria-hidden="true"></i></p>Community</a>
-          </li>
-        </div>
-      </ul>
-    </div>
+<div class="navBar top-bar row">
+  <div class="small-12 columns">
+    <ul class="menu">
+      <div class="small-2 columns">
+        <li class="active">
+          <a href="#"><p><i class="fa fa-bug" aria-hidden="true"></i></p><span>Home</span></a>
+        </li>
+      </div>
+      <div class="small-2 columns">
+        <li>
+          <a href="#"><p><i class="fa fa-fire-extinguisher" aria-hidden="true"></i></p><span>Games</span></a>
+        </li>
+      </div>
+      <div class="small-2 columns">
+        <li>
+          <a href="#"><p><i class="fa fa-glass" aria-hidden="true"></i></p><span>Competitions</span></a>
+        </li>
+      </div>
+      <div class="small-2 columns">
+        <li>
+          <a href="#"><p><i class="fa fa-tags" aria-hidden="true"></i></p><span>Streams</span></a>
+        </li>
+      </div>
+      <div class="small-2 columns">
+        <li>
+          <a href="#"><p><i class="fa fa-user-secret" aria-hidden="true"></i></p><span>Bets</span></a>
+        </li>
+      </div>
+      <div class="small-2 columns">
+        <li>
+          <a href="#"><p><i class="fa fa-android" aria-hidden="true"></i></p><span>Community</span></a>
+        </li>
+      </div>
+    </ul>
   </div>
-</nav>
+</div>
+
 
 <!-- ////////////////////////////////////////////-->
 <!-- END HEADER-->
@@ -112,8 +87,7 @@
 <!-- ////////////////////////////////////////////-->
 <!-- HOME GENERAL-->
 <!-- ////////////////////////////////////////////-->
-<hr>
-<div class="row">
+<div class="row test">
   <div class="small-3 columns">
   ffff
   </div>

@@ -100,23 +100,50 @@
 <!-- ////////////////////////////////////////////-->
 <div class="row small-collapse">
   <div class="small-8 columns cardL">
-    <div id="scrolling" class="card">
-        <ul class="test" data-tabs id="">
-          <li class="">
-            Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.
-          </li>
-          <li class="">Tab 2</li>
-          <li class="">Tab 2</li>
-          <li class="">Tab 2</li>
-          <li class="">Tab 2</li>
-          <li class="">Tab 2</li>
-          <li class="">Tab 2</li>
-        </ul>
+    <div class="card">
+      <div class="card-divider">
+        Titre de la section Match
+      </div>
       <div class="card-section">
-        <div class="" data-tabs-content="">
-          <ul class="test" data-tabs id="">
-            <li class="">Tab 2</li>
-          </ul>
+        <div class="row collapse">
+          <div class="medium-3 columns">
+            <ul class="tabs vertical" id="example-vert-tabs" data-tabs>
+              <li class="tabs-title is-active"><a href="#panel1v" aria-selected="true">13/04/2017</a></li>
+              <li class="tabs-title"><a href="#panel2v">14/04/2017</a></li>
+              <li class="tabs-title"><a href="#panel3v">15/04/2017</a></li>
+              <li class="tabs-title"><a href="#panel4v">16/04/2017</a></li>
+              <li class="tabs-title"><a href="#panel5v">17/04/2017</a></li>
+              <li class="tabs-title"><a href="#panel6v">18/04/2017</a></li>
+            </ul>
+          </div>
+          <div class="medium-9 columns">
+            <div class="tabs-content vertical" data-tabs-content="example-vert-tabs">
+              <div class="tabs-panel is-active" id="panel1v">
+                    <ul id="lightSlider" id="autoWidth" class="cs-hidden">
+                      <li class="item-a">Ici la description du match 1 de la journée du 13 avec image, description et toutes les infos relatives au match</li>
+                      <li class="item-b">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                      <li class="item-c">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                      <li class="item-d">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                      <li class="item-e">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </li>
+                    </ul>
+              </div>
+              <div class="tabs-panel" id="panel2v">
+                <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus.</p>
+              </div>
+              <div class="tabs-panel" id="panel3v">
+                <img class="thumbnail" src="assets/img/generic/rectangle-3.jpg">
+              </div>
+              <div class="tabs-panel" id="panel4v">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </div>
+              <div class="tabs-panel" id="panel5v">
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="tabs-panel" id="panel6v">
+                <img class="thumbnail" src="assets/img/generic/rectangle-5.jpg">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -135,7 +162,6 @@
   </div>
 </div>
 <hr>
-
 <!-- ////////////////////////////////////////////-->
 <!-- END HOME GENERAL-->
 <!-- ////////////////////////////////////////////-->
@@ -171,7 +197,7 @@
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/what-input/dist/what-input.js"></script>
     <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
-    <script src="bower_components/itemslide/dist/itemslide.min.js"></script>
     <script src="js/app.js"></script>
+    <script src="bower_components/lightslider/dist/js/lightslider.js"></script>
   </body>
 </html>

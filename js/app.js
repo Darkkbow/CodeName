@@ -1,13 +1,14 @@
 $( document ).ready(function() {
 
-    jQuery('#ajaxifytry').ajaxify();
+    jQuery().ajaxify();
 
     $(document).foundation();
-    $("#lightSlider").lightSlider({
-        item: 1,
-        autoWidth: false,
+
+    $(".tabs").lightSlider({
+        item: 6,
+        autoWidth: true,
         slideMove: 1, // slidemove will be 1 if loop is true
-        slideMargin: 10,
+        slideMargin: 0,
 
         addClass: '',
         mode: "slide",
@@ -30,11 +31,11 @@ $( document ).ready(function() {
         adaptiveHeight:false,
 
         vertical:false,
-        verticalHeight:500,
+        verticalHeight:200,
         vThumbWidth:100,
 
         thumbItem:10,
-        pager: true,
+        pager: false,
         gallery: false,
         galleryMargin: 5,
         thumbMargin: 5,
@@ -53,13 +54,8 @@ $( document ).ready(function() {
         onAfterSlide: function (el) {},
         onBeforeNextSlide: function (el) {},
         onBeforePrevSlide: function (el) {}
-    });
-    $('#autoWidth').lightSlider({
-        autoWidth:true,
-        loop:true,
-        onSliderLoad: function() {
-            $('#autoWidth').removeClass('cS-hidden');
-        }
+
+
     });
 
 });

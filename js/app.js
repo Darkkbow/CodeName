@@ -1,5 +1,7 @@
 $( document ).ready(function() {
 
+    jQuery('#ajaxifytry').ajaxify();
+
     $(document).foundation();
     $("#lightSlider").lightSlider({
         item: 1,
